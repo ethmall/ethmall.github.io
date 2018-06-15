@@ -27,7 +27,8 @@
     { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "fullName": "Ethereum", "decimals": 18 }
   ],
   "tokens": [
-    { "addr": "0x60200c0fefc1d0ade1e19a247b703cf3ccdc915a", "name": "TWIT", "fullName": "Twit", "decimals": 8 },
+    { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "fullName": "ETH", "decimals": 18 },
+    { "addr": "0xe13ef257cf4d5df928ca11d230427c037666d466", "name": "WIT", "fullName": "WIT", "decimals": 6 },
     { "addr": "0x327682779bab2bf4d1337e8974ab9de8275a7ca8", "name": "BPRT", "fullName": "Blockport Token", "decimals": 18 },
     { "addr": "0x5ecd84482176db90bb741ddc8c2f9ccc290e29ce", "name": "BTL", "fullName": "Bitlong BTL", "decimals": 6 },
     { "addr": "0xd20bcbd56d9d551cac10a6bc2a83635bfb72f3f4", "name": "FUND", "fullName": "FUND", "decimals": 6 }
