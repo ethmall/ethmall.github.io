@@ -63,7 +63,8 @@ a.navbar-brand {
   padding: 0;
 }
 .navbar-brand img {
-  height: 100%;
+  height: 85%;
+  padding-top: 6px;
 }
 
 .container {
@@ -657,7 +658,7 @@ fieldset[disabled] .form-control {
 }
 
 #trades {
-  overflow-x: hidden /* prevents the header from getting clipped at the top on FF on narrow windows. See https://github.com/forkdelta/forkdelta.github.io/issues/102 */
+  /*overflow-x: hidden  prevents the header from getting clipped at the top on FF on narrow windows. See https://github.com/forkdelta/forkdelta.github.io/issues/102 */
 }
 
 .fa.fa-spinner:before {
