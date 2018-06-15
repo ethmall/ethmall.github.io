@@ -8,7 +8,7 @@
   "ethTestnet": false,
   "ethChainId": 1,
   "ethProvider": "http://localhost:8545",
-  "ethGasPrice": 4000000000,
+  "ethGasPrice": 8000000000,
   "ethAddr": "0x0000000000000000000000000000000000000000",
   "ethAddrPrivateKey": "",
   "gasApprove": 250000,
@@ -33,5 +33,5 @@
     { "addr": "0x5ecd84482176db90bb741ddc8c2f9ccc290e29ce", "name": "BTL", "fullName": "Bitlong BTL", "decimals": 6 },
     { "addr": "0xd20bcbd56d9d551cac10a6bc2a83635bfb72f3f4", "name": "FUND", "fullName": "FUND", "decimals": 6 }
   ],
-  "defaultPair": { "token": "DAI", "base": "ETH" }
+  "defaultPair": { "token": "WIT", "base": "ETH" }
 }
