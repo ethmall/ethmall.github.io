@@ -19,8 +19,8 @@
   "minOrderSize": 0.001,
   "socketServer": "https://api.ethmall.org",
   "userCookie": "ethmall",
-  "eventsCacheCookie": "EtherDelta_eventsCache",
-  "ordersCacheCookie": "EtherDelta_ordersCache",
+  "eventsCacheCookie": "ethmall_eventsCache",
+  "ordersCacheCookie": "ethmall_ordersCache",
   "etherscanAPIKey": "GCGR1C9I17TYIRNYUDDEIJH1K5BRPH4UDE",
   "ledgerPath": "m/44'/60'/0'/0",
   "bases": [
