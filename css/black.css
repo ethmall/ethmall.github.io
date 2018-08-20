@@ -8,7 +8,7 @@ body {
   height: 100%;
   overflow-x: auto;
   overflow-y: hidden;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Gilroy, Open Sans, sans-serif;
   font-size: 13px;
   background: #1C2236;
   color: #ced2d5;
@@ -245,7 +245,7 @@ tr.clickable-row:hover {
 }
 
 a {
-  color: #4bc3c3;
+  color: #fff;
 }
 a:hover {
   color: #4bc3c3;
