@@ -111,7 +111,7 @@ a.navbar-brand {
   font-weight: bold;
   text-transform: capitalize;
   color: #fff;
-  border-bottom: 2px solid #18252E;
+  border-bottom: 2px solid #1c2236;
 }
 
 .row-box {
@@ -152,7 +152,7 @@ tr.table-header {
 }
 
 .table-header {
-  border-bottom: 2px solid #18252E;
+  border-bottom: 2px solid #1c2236;
 }
 
 tr.mid-header {
@@ -203,6 +203,8 @@ tr.clickable-row:hover {
 }
 .nav-tabs.three > li {
   width: calc(100%/3);
+  border-bottom: 1px solid #666;
+  margin-bottom: 0;
 }
 .nav-tabs.four > li {#2E3858
   width: calc(100%/4);
@@ -213,7 +215,7 @@ tr.clickable-row:hover {
 .nav-tabs.columns > li > a {
   transition: background-color .25s ease-in-out;
   border-radius: 0;
-  height: 35px;
+  height: 34px;
   line-height: 17px;
   width: 100%;
   text-align: center;
@@ -410,7 +412,7 @@ pre code {
 
 #chartDepth {
   overflow: hidden;
-  background: #1C2236 !important;
+  background: #222940 !important;
 }
 
 #chartDepth [fill="#cccccc"] {
@@ -686,7 +688,7 @@ fieldset[disabled] .form-control {
 .modal-header {
   color: #ced2d5;
   background: #1E2B34;
-  border-bottom: 2px solid #18252E;
+  border-bottom: 2px solid #1c2236;
 }
 
 .alertify .ajs-header .fa,
@@ -698,7 +700,7 @@ fieldset[disabled] .form-control {
 .modal-footer {
   color: #ced2d5;
   background: #1E2B34;
-  border-top: 2px solid #18252E;
+  border-top: 2px solid #1c2236;
 }
 
 .alertify .ajs-footer .ajs-buttons.ajs-auxiliary .ajs-button,
