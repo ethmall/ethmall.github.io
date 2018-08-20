@@ -245,10 +245,10 @@ tr.clickable-row:hover {
 }
 
 a {
-  color: #ccc;
+  color: #4bc3c3;
 }
 a:hover {
-  color: #666;
+  color: #4bc3c3;
   text-decoration: none;
 }
 
@@ -437,6 +437,9 @@ pre code {
   position: relative;
   display: inline-block;
 }
+span.ttip{
+    margin-right:5px;
+}
 
 .ttip .text {
   visibility: hidden;
@@ -590,6 +593,9 @@ fieldset[disabled] .form-control {
   transition: background-color .2s ease-in-out;
 }
 
+.btn-danger:hover {
+  background-color: #7e62fd !important;
+}
 
 #bs-example-navbar-collapse-1 .navbar-nav #tokensDropdown .dropdown-menu {
   max-width: 100%;
