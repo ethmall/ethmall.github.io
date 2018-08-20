@@ -10,7 +10,7 @@ body {
   overflow-y: hidden;
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
-  background: #1E2B34;
+  background: #1C2236;
   color: #ced2d5;
 }
 
@@ -106,7 +106,7 @@ a.navbar-brand {
   width: 100%;
   padding: 8px;
   height: 38px;
-  background: #2f3d45;
+  background: #2E3858;
   font-size: 16px;
   font-weight: bold;
   text-transform: capitalize;
@@ -214,7 +214,7 @@ tr.clickable-row:hover {
   line-height: 17px;
   width: 100%;
   text-align: center;
-  background: #2f3d45;
+  background: #2E3858;
   color: #fff;
   border: 0;
 }
@@ -503,7 +503,7 @@ fieldset[disabled] .form-control {
   font-weight: normal;
   text-align: left;
   color: #fff;
-  background-color: #404a52;
+  background-color: #2E3858;
   font-family: 'Open Sans', sans-serif;
 }
 
