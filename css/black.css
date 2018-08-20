@@ -220,7 +220,7 @@ tr.clickable-row:hover {
 }
 .nav-tabs.columns > li.active > a {
   color: #fff;
-  background: #1C2236;
+  background: #28324E;
   border: 0;
 }
 .nav-tabs.columns > li > a:hover {
@@ -230,7 +230,7 @@ tr.clickable-row:hover {
 }
 
 .nav-tabs.columns > li.active > a:hover {
-  background: #1C2236;
+  background: #28324E;
   color: #fff;
 }
 
