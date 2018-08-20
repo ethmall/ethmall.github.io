@@ -147,7 +147,6 @@ a.navbar-brand {
   padding-top: 5px;
 }
 tr.table-header {
-  height: 25px;
   border-bottom: 1px solid #666666;
   vertical-align:bottom;
 }
@@ -158,21 +157,21 @@ tr.table-header {
 
 tr.mid-header {
   border-bottom: 1px solid #666;
-  height:35px;
-  line-height: 35px;
 }
-tr.mid-header th,thead th{
-    line-height: 35px;
-    vertical-align:middle;
-}
+
 .table {
  border: 0;
 }
 .table td,th,tr {
   text-align: center;
+  height: 35px;
+}
+#balance, #orders{
+    min-height:424px;
 }
 .table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
-  border: none;
+    border: none;
+    vertical-align: middle !important;
 }
 tr.clickable-row:hover {
   cursor: pointer;
