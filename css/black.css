@@ -10,7 +10,7 @@ body {
   overflow-y: hidden;
   font-family: Gilroy, Open Sans, sans-serif;
   font-size: 13px;
-  background: #1C2236;
+  background: #222940;
   color: #ced2d5;
 }
 
@@ -164,7 +164,7 @@ tr.mid-header {
 }
 .table td,th,tr {
   text-align: center;
-  height: 35px;
+  height: 34px;
 }
 #balance, #orders{
     min-height:424px;
@@ -397,7 +397,7 @@ pre code {
 
 #chartPrice {
   overflow: hidden;
-  background: #1C2236 !important;
+  background: #222940 !important;
 }
 
 #chartPrice [fill="#cccccc"] {
