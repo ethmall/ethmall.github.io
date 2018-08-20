@@ -50,7 +50,7 @@ body::-webkit-scrollbar-thumb,
 
 body::-webkit-scrollbar-thumb:hover,
 .scroll::-webkit-scrollbar-thumb:hover {
-  background-color: #445661;
+  background-color: #2E3858;
 }
 
 .navbar.navbar-default {
@@ -194,7 +194,6 @@ tr.clickable-row:hover {
   border-bottom: 1px solid #1C2236;
 }
 .nav-tabs li {
-    border-bottom: 1px solid #666;
     margin-bottom: 0;
 }
 .nav-tabs > li > a {
@@ -208,12 +207,15 @@ tr.clickable-row:hover {
   width: calc(100%/3);
   
 }
-.nav-tabs.four > li {#2E3858
+.nav-tabs.four > li {
   width: calc(100%/4);
 }
 .nav-tabs.columns {
 
   border-bottom: 1px solid #666;
+}
+.form-control:focus {
+    border-color: #4bc3c3;
 }
 .nav-tabs.columns > li > a {
   transition: background-color .25s ease-in-out;
