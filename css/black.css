@@ -193,7 +193,10 @@ tr.clickable-row:hover {
   height: 35px;
   border-bottom: 1px solid #1C2236;
 }
-
+.nav-tabs li {
+    border-bottom: 1px solid #666;
+    margin-bottom: 0;
+}
 .nav-tabs > li > a {
   color: #000;
 }
@@ -203,14 +206,14 @@ tr.clickable-row:hover {
 }
 .nav-tabs.three > li {
   width: calc(100%/3);
-  border-bottom: 1px solid #666;
-  margin-bottom: 0;
+  
 }
 .nav-tabs.four > li {#2E3858
   width: calc(100%/4);
 }
 .nav-tabs.columns {
-  border-bottom: 0;
+
+  border-bottom: 1px solid #666;
 }
 .nav-tabs.columns > li > a {
   transition: background-color .25s ease-in-out;
@@ -503,8 +506,8 @@ fieldset[disabled] .form-control {
   width: 100%;
   height: 36px;
   padding: 8px 5px 8px 10px;
-  border: 1px solid #565f66;
-  border-radius: 2px;
+  border: 1px solid #4bc3c3;
+  border-radius: 4px;
   outline: 0;
   box-shadow: none;
   font-size: 14px;
@@ -586,22 +589,24 @@ fieldset[disabled] .form-control {
 
 
 .btn-danger {
-  flex: 1;
-  border: none;
-  border-radius: 42px;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 30px;
-  text-align: center;
-  cursor: pointer;
-  color: #fff;
-  user-select: none;
-  background-color: #7e62fd !important;
-  transition: background-color .2s ease-in-out;
+    flex: 1;
+    border: none;
+    border-radius: 42px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    user-select: none;
+    transition: background-color .2s ease-in-out;
+    background-image: -webkit-linear-gradient(left, #25bfbf 0%, #6edcaa 100%);
+    background-image: linear-gradient(to right, #ff5620 0%, rgba(255, 86, 32, 0.6) 100%);
 }
 
 .btn-danger:hover {
-  background-color: #7e62fd !important;
+  background-image: -webkit-linear-gradient(left, #25bfbf 0%, #6edcaa 100%);
+    background-image: linear-gradient(to right, #ff5620 0%, rgba(255, 86, 32, 0.6) 100%);
 }
 
 #bs-example-navbar-collapse-1 .navbar-nav #tokensDropdown .dropdown-menu {
