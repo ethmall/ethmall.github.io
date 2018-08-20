@@ -99,7 +99,7 @@ a.navbar-brand {
   float: none;
 }
 .row .no-float:not(:last-child) {
-	border-right: 2px solid #18252E;
+	border-right: 2px solid #1C2236;
 }
 
 .row-header {
