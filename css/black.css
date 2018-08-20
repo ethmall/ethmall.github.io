@@ -220,17 +220,17 @@ tr.clickable-row:hover {
 }
 .nav-tabs.columns > li.active > a {
   color: #fff;
-  background: #28324E;
+  background: #1C2236;
   border: 0;
 }
 .nav-tabs.columns > li > a:hover {
   color: #FFF;
-  background: #33424a;
+  background: #1c2236;
   border: 0;
 }
 
 .nav-tabs.columns > li.active > a:hover {
-  background: #28324E;
+  background: #1C2236;
   color: #fff;
 }
 
@@ -394,7 +394,7 @@ pre code {
 
 #chartPrice {
   overflow: hidden;
-  background: #1E2B34 !important;
+  background: #1C2236 !important;
 }
 
 #chartPrice [fill="#cccccc"] {
@@ -511,7 +511,7 @@ fieldset[disabled] .form-control {
 .form-control[readonly],
 fieldset[disabled] .form-control {
   color: #fff;
-  background-color: #1E2B34;
+  background-color: #2E3858;
   opacity: 0.6;
 }
 
