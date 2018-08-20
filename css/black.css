@@ -43,8 +43,8 @@ body::-webkit-scrollbar-track,
 
 body::-webkit-scrollbar-thumb,
 .scroll::-webkit-scrollbar-thumb {
-  background-color: #233540;
-  border: 1px solid #233540;
+  background-color: #2E3858;
+  border: 1px solid #2E3858;
   transition: all 0.2s ease-out;
 }
 
