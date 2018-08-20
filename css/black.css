@@ -158,6 +158,12 @@ tr.table-header {
 
 tr.mid-header {
   border-bottom: 1px solid #666;
+  height:35px;
+  line-height: 35px;
+}
+tr.mid-header th,thead th{
+    line-height: 35px;
+    vertical-align:middle;
 }
 .table {
  border: 0;
