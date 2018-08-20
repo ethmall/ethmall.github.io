@@ -157,12 +157,10 @@ tr.table-header {
 }
 
 tr.mid-header {
-  border-top: 1px solid #666;
   border-bottom: 1px solid #666;
 }
 .table {
  border: 0;
- margin-top: 5px;
 }
 .table td,th,tr {
   text-align: center;
@@ -407,7 +405,7 @@ pre code {
 
 #chartDepth {
   overflow: hidden;
-  background: #1E2B34 !important;
+  background: #1C2236 !important;
 }
 
 #chartDepth [fill="#cccccc"] {
@@ -562,7 +560,7 @@ fieldset[disabled] .form-control {
 .btn-success {
   flex: 1;
   border: none;
-  border-radius: 1px;
+  border-radius: 42px;
   font-size: 12px;
   font-weight: bold;
   line-height: 30px;
@@ -570,18 +568,17 @@ fieldset[disabled] .form-control {
   cursor: pointer;
   color: #fff;
   user-select: none;
-  background-color: #4da53c !important;
   transition: background-color .2s ease-in-out;
+
+  background-image: -webkit-linear-gradient(left, #25bfbf 0%, #6edcaa 100%);
+  background-image: linear-gradient(to right, #25bfbf 0%, #6edcaa 100%);
 }
 
-.btn-success:hover {
-  background-color: #449235 !important;
-}
 
 .btn-danger {
   flex: 1;
   border: none;
-  border-radius: 1px;
+  border-radius: 42px;
   font-size: 12px;
   font-weight: bold;
   line-height: 30px;
@@ -589,23 +586,10 @@ fieldset[disabled] .form-control {
   cursor: pointer;
   color: #fff;
   user-select: none;
-  background-color: #ff6939 !important;
+  background-color: #7e62fd !important;
   transition: background-color .2s ease-in-out;
 }
 
-.btn-danger:hover {
-  flex: 1;
-  border-radius: 1px;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 30px;
-  text-align: center;
-  cursor: pointer;
-  color: #fff;
-  user-select: none;
-  background-color: #ff5620 !important;
-  transition: background-color .2s ease-in-out;
-}
 
 #bs-example-navbar-collapse-1 .navbar-nav #tokensDropdown .dropdown-menu {
   max-width: 100%;
@@ -641,7 +625,7 @@ fieldset[disabled] .form-control {
 }
 
 #trades tr:hover {
-  background-color: #1B2831;
+  background-color: #2E3858;
 }
 
 #volume .ticker-row {
