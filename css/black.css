@@ -551,7 +551,7 @@ fieldset[disabled] .form-control {
 .btn-primary {
   flex: 1;
   border: none;
-  border-radius: 1px;
+  border-radius: 4px;
   font-size: 12px;
   font-weight: bold;
   line-height: 30px;
@@ -559,7 +559,7 @@ fieldset[disabled] .form-control {
   cursor: pointer;
   color: #fff;
   user-select: none;
-  background-color: #3d84d6 !important;
+  background-color: #7e62fd !important;
   transition: background-color .2s ease-in-out;
 }
 
