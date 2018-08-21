@@ -164,7 +164,6 @@ tr.mid-header {
 }
 .table td,th,tr {
   text-align: center;
-  height: 22px;
 }
 #balance, #orders{
     min-height:405px;
@@ -275,10 +274,6 @@ a:hover {
   padding-right: 12px;
 }
 
-.padding-sides {
-  padding-left: 12px;
-  padding-right: 12px;
-}
 
 .padding-right {
   padding-right: 12px !important;
@@ -518,6 +513,7 @@ fieldset[disabled] .form-control {
   color: #fff;
   background-color: #2E3858;
   font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
 }
 
 .form-control[disabled],
@@ -755,4 +751,12 @@ fieldset[disabled] .form-control {
 	.row-box.height4 {
 		height: 400px;
 	}
+}
+
+
+#deposit .padding-sides table tr td:first-child, #withdraw .padding-sides table tr td:first-child {
+    width: 65% !important;
+}
+#transfer table input{
+    width: 80px !important;
 }
