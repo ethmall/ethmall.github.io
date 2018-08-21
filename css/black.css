@@ -740,9 +740,7 @@ fieldset[disabled] .form-control {
     /* z-index must be higher than navbar or you get issue #118 */
     z-index: 1100
 }
-#balance, #orders{
-    min-height: calc(50vh - 190px);
-}
+
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	#balance {
