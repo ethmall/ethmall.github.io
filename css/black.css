@@ -131,8 +131,7 @@ a.navbar-brand {
 
 }
 .row-box.height4 {
-  height: calc(40vh - 127px);
-}
+  height: 280px;}
 .row-box.height5 {
   height: calc(60vh - 135px);
 }
@@ -165,9 +164,6 @@ tr.mid-header {
 }
 .table td,th,tr {
   text-align: center;
-}
-#balance, #orders {
-    min-height: 280px;
 }
 .table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
     border: none;
