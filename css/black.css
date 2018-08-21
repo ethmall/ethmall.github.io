@@ -124,13 +124,13 @@ a.navbar-brand {
   height: calc(100vh - 89px);
 }
 .row-box.height2 {
-  height: calc(50vh - 115px);
+  height: calc(50vh - 225px);
 }
 .row-box.height3 {
-  height: calc(50vh - 81px);
+  height: calc(50vh - 190px);
 }
 .row-box.height4 {
-  height: calc(40vh - 61px);
+  height: calc(40vh - 127px);
 }
 .row-box.height5 {
   height: calc(60vh - 135px);
@@ -166,7 +166,7 @@ tr.mid-header {
   text-align: center;
 }
 #balance, #orders{
-    min-height:405px;
+    min-height:296px;
 }
 .table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
     border: none;
